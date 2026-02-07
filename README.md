@@ -1,14 +1,9 @@
-# Graph Project - Assignment 4
+# Graph Algorithms Implementation (Assignment 4)
 
-### Как запустить:
-1. Компиляция: `javac src/*.java`
-2. Запуск: `java Main`
+This project implements core Graph Data Structures and Traversal Algorithms (BFS/DFS) as part of the IIoT course requirements.
 
-### Что реализовано:
-* **Графы:** Списки смежности и матрицы.
-* **Алгоритмы:** BFS (кратчайший путь) и DFS.
-* **Тесты:** Проверены пустые графы, одиночные вершины, циклы и куча компонентов.
-* **Сортировка соседей:** Чтобы обход всегда был одинаковым, я сортирую соседей по возрастанию ID.
+## How to Build and Run
 
-### Анализ:
-В корне лежит `Report.pdf`, там графики скорости работы (Stress Test) и разбор сложности $O(V+E)$.
+1. **Compile the project:**
+   ```bash
+   javac -d bin src/*.java
